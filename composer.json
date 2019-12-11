@@ -1,0 +1,16 @@
+ {
+  "name": "devgeniem/enhanced-media-library",
+  "type": "wordpress-plugin",
+  "license": "GPLv2 or later",
+  "description": "Enhanced Media Library",
+  "authors": [
+    {
+      "name": "",
+      "homepage": "",
+      "role": ""
+    }
+  ],
+  "keywords": [
+    "wordpress", "wp", "plugin"
+  ]
+}
