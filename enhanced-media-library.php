@@ -216,7 +216,7 @@ if ( ! function_exists( 'wpuxss_eml_on_wp_loaded' ) ) {
         global $wp_taxonomies;
 
         $wpuxss_eml_taxonomies = get_option( 'wpuxss_eml_taxonomies', array() );
-        $taxonomies = get_taxonomies( array(), 'object' );
+        $taxonomies = get_taxonomies( array( 'show_ui' => true, 'public' => true ), 'objects' );
 
 
         // discover 'foreign' taxonomies
